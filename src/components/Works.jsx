@@ -15,8 +15,14 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <div className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full transition-transform duration-200 ease-in-out hover:scale-110 hover:shadow-lg">
+    <motion.div
+      variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+      className="flex grow"
+    >
+      <div
+        onClick={() => window.open(source_code_link, "_blank")}
+        className="bg-tertiary hover:cursor-pointer p-5 rounded-2xl sm:w-[360px] w-full transition-transform duration-200 ease-in-out hover:scale-110 hover:shadow-lg grow pb-12"
+      >
         <div className="relative w-full h-[230px]">
           <img
             src={image}
@@ -25,10 +31,7 @@ const ProjectCard = ({
           />
 
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-            <div
-              onClick={() => window.open(source_code_link, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-            >
+            <div className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
               <img
                 src={github}
                 alt="source code"
@@ -38,7 +41,7 @@ const ProjectCard = ({
           </div>
         </div>
 
-        <div className="mt-5">
+        <div className="mt-5 grow">
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
           <p className="mt-2 text-secondary text-[14px]">{description}</p>
         </div>
@@ -79,7 +82,7 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className="mt-20 flex flex-wrap gap-7">
+      <div className="mt-20 flex justify-between gap-7 flex-col lg:flex-row">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}

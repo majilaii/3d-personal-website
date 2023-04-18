@@ -14,7 +14,7 @@ const Hero = () => {
           <div className="w-1 sm:h-80 h-40 violet-gradient"></div>
         </div>
 
-        <div className="ml-3">
+        <div className="ml-6">
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className="text-[#915eff]">Jacky</span>
           </h1>
