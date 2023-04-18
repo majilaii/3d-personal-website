@@ -24,7 +24,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import premierpigs from "./premierpigs.jpg";
-import tactictoeTrain from "./tactictrain.png";
+import tactictoeTrain from "./tactictrain.PNG";
 import meta from "./company/meta.png";
 import tactictoe from "./tactictoe.jpg";
 import carrent from "./carrent.png";
