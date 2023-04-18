@@ -16,13 +16,18 @@ import {
   figma,
   docker,
   meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  vitamin,
+  amazething,
+  tactictoe,
+  premierpigs,
+  battleship,
+  amazethingapp,
+  tactictoeTrain,
+  josep,
 } from "../assets";
 
 const navLinks = [
@@ -116,55 +121,55 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Full Stack Developer",
+    company_name: "Multivitamin",
+    icon: vitamin,
+    iconBg: "#000000",
+    date: "Jan 2023 - April 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Designed and implemented web and mobile applications using React and Next.js with another engineer, focusing on developing a veteran recruitment platform.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Full Stack Developer",
+    company_name: "Amazething",
+    icon: amazething,
+    iconBg: "#023020",
+    date: "Jun 2022 - Dec 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Collaborated with a team of four engineers to develop a multiplayer game with a learning component that visualizes different algorithms like Merge Sort, Quick Sort, Dijkstra's, and A* pathfinding.",
+      "Utilized SocketIO for real-time gameplay and Auth0 for server-side authentication, and Redux for state control.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    title: "Full Stack Developer",
+    company_name: "Tactic-toe",
+    icon: tactictoe,
+    iconBg: "#FFFFFF",
+    date: "Jan 2022 - Jun 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Worked with a team of two engineers under an Agile management system to develop an AI app using Angular, SocketIO, and PostgreSQL for real-time player interaction and efficient data management.",
+      "Improved reinforcement learning by accounting for board symmetry, allowing for 80% faster model improvement",
+      "Refactored code into TypeScript to improve reliability and prevent future bugs.",
+      "Utilized Express and Passport.js for server-side routing and authentication to ensure a secure and user-friendly experience",
     ],
   },
   {
     title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    company_name: "Groupo Premier Pigs",
+    icon: premierpigs,
+    iconBg: "#FFFFFF",
+    date: "Jun 2021 - Dec 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      `Developed a mobile application that allows farmers to place orders for feed from the company's factory`,
+      "Created a website built in Angular to manage orders, addresses, and capacity of the feed mill",
+      " Connected the mobile app and website in real time through an APIPremierFarming was a project dedicated to improving the management of feed orders.",
+      "Developed a mobile application that allows farmers to place orders d from the company's factory",
+      "Connected the mobile app and website in real time through an API",
     ],
   },
 ];
@@ -172,33 +177,33 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
+      "I had the pleasure of working with Jacky on the development of an app for my Premier Pigs Agriculture business, and I couldn't be more satisfied with the results. From the initial concept to the final product, Jacky showcased their exceptional skills, creativity, and dedication to bringing my vision to life.",
+    name: "Josep Abellana",
     designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    company: "Groupo Premier Pig",
+    image: josep,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "I highly recommend Jacky as a software engineer. I have had the pleasure of working with him on several projects, and I can attest to his excellent problem-solving skills. He is able to quickly identify and resolve any issues that arise, and his coding skills are top-notch.",
+    name: "Vadim Gnezdyshkin",
+    designation: "Software Engineer",
+    company: "Tatictoe",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+      "I highly recommend Jacky as a colleague. I had the pleasure of working with him on a project, and I found him to be a joy to work with. He is intelligent, entertaining, and a driven problem solver. I think he would be an asset to any team, and I would welcome the opportunity to work with him again in the future.",
+    name: "Marija Vitkauskaite",
+    designation: "Software Engineer",
+    company: "Amazething",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Tactictoe",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
@@ -215,13 +220,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: tactictoeTrain,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Amazething",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "An innovative multiplayer game with a unique learning component that focuses on algorithm visualization",
     tags: [
       {
         name: "react",
@@ -236,13 +241,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: amazethingapp,
+    source_code_link: "https://github.com/majilaii/aMAZEthing",
   },
   {
-    name: "Trip Guide",
+    name: "Battleship",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A Single Player Battleship App, a modern, user-friendly adaptation of the classic Battleship game designed for mobile and desktop devices.",
     tags: [
       {
         name: "nextjs",
@@ -257,8 +262,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: battleship,
+    source_code_link: "https://github.com/majilaii/battleship-app",
   },
 ];
 
