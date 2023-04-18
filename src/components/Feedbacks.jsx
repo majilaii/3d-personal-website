@@ -46,10 +46,12 @@ function TestimonialCard({
       variants={fadeIn("", "spring", index * 0.5, 0.75)}
     >
       <p className="text-white font-black text-[48px]">"</p>
-      <div className="mt-1">
-        <p className="text-white tracking-wider text-[18px] ">{testimonial}</p>
-        <div className="mt-7 flex justify-between items-center gap-1">
-          <div className="flex-1 flex flex-col">
+      <div className="mt-1 flex flex-col h-full">
+        <div className="text-white tracking-wider text-[14px] flex-grow">
+          <p className="grow">{testimonial}</p>
+        </div>
+        <div className="mt-7 flex justify-between items-start gap-1">
+          <div className="flex-1 flex flex-col min-h-[120px]">
             <p className="text-white font-medium text-[16px]">
               <span className="blue-text-gradient">@</span> {name}
             </p>
